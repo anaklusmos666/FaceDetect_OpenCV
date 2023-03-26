@@ -1,0 +1,4 @@
+# FaceDetect_OpenCV
+Using Python and Python OpenCV library, I have built a class which can detect face in an image(s) and can crop face from the provided image(s). OpenCV is an open source library for real time computer vision. Isntall OpenCV using <a href=https://pypi.org/project/opencv-python/>PyPi</a> command. Read official OpenCV <a href=https://docs.opencv.org/4.x/>Documentation</a> and OpenCV Python <a href= https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html>Tutorial</a>.
+<br><br>
+The <b>face.py</b> file contains the Face class. It has two methods. face_area() returns the pixel coordinates where opencv detects face. It takes one argument, a image. The other method, crop_face crops face using the pixel coordinates and returns the cropped image. The Other folder has some basic concenpts on OpenCV.
